@@ -275,13 +275,7 @@ AlgoMind is built for that exact kind of growth.
 
 ---
 
-## License
 
-This project is proprietary software. See `LICENSE` for details.
-
-For inquiries, contact: AlgoMind.Support@gmail.com
-
----
 
 ## Closing pitch
 
