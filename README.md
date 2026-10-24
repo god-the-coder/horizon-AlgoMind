@@ -1,6 +1,6 @@
 # AlgoMind 🧠⚡
 
-Adaptive learning platform for DSA practice, mentorship, and intelligent coding workflows.
+Adaptive learning platform for DSA practice, mentorship, and structured coding growth.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Platform-Render-00C7B7?style=flat-square&logo=render&logoColor=white)](https://algomind-frontend-dvfp.onrender.com/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-god-the-coder%2Fhorizon-AlgoMind-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/god-the-coder/horizon-AlgoMind)
@@ -11,17 +11,17 @@ Adaptive learning platform for DSA practice, mentorship, and intelligent coding 
 
 ## Overview
 
-AlgoMind is a full-stack platform built to help learners and developers strengthen their Data Structures and Algorithms (DSA) skills through guided practice, adaptive learning, and structured coding workflows.
+AlgoMind is a full-stack learning platform designed to help developers and aspiring engineers improve their Data Structures and Algorithms (DSA) skills through guided practice, adaptive learning, and structured coding workflows.
 
 The platform combines:
 
-- a Socratic AI mentor that gives hints instead of direct solutions
+- a Socratic AI mentor that gives hints instead of direct answers
 - a browser-based coding arena for problem solving and validation
 - analytics for topic mastery and weak-area detection
-- live challenge rooms for practice sessions and competitive workflows
-- a progression system to keep users engaged and motivated
+- challenge rooms for practice sessions and competitive-style workflows
+- a progression engine to sustain motivation and measurable growth
 
-At a high level, AlgoMind addresses a common challenge in technical learning: many users rely on ready-made solutions instead of reasoning through the problem. The platform encourages understanding, debugging, and iterative improvement through targeted feedback and structured practice.
+AlgoMind addresses a common issue in technical learning: many users learn by copying complete solutions instead of building reasoning and debugging skills. The product encourages understanding, iteration, and confidence through targeted feedback rather than instant answers.
 
 ---
 
@@ -37,7 +37,7 @@ Users can ask for help without receiving complete solution code. The AI focuses 
 - complexity explanation
 - debugging guidance
 
-This helps learners build problem-solving instincts instead of copying finished answers.
+This helps learners build strong problem-solving instincts instead of relying on finished solutions.
 
 ### 2. DSA Practice Arena
 
@@ -47,11 +47,11 @@ The platform includes an in-browser coding environment with:
 - multi-language compilation support
 - custom stdin input
 - test execution workflow
-- structured challenge solving
+- structured problem solving
 
 ### 3. Personalized Learning Analytics
 
-Users can connect competitive programming profiles and track performance across topics such as:
+Users can connect competitive programming profiles and track performance across topics including:
 
 - arrays
 - trees
@@ -60,11 +60,11 @@ Users can connect competitive programming profiles and track performance across 
 - binary search
 - greedy algorithms
 
-The system surfaces gaps in mastery and supports adaptive learning paths.
+The system identifies weak areas and supports adaptive learning paths.
 
-### 4. Challenge Rooms and Live Sessions
+### 4. Challenge Rooms and Practice Sessions
 
-AlgoMind supports guided practice sessions and competitive workflows with session controls, verification, and monitoring for structured coding environments.
+AlgoMind supports guided practice sessions, competitive-style workflows, and collaborative problem solving through structured challenge rooms and session-based interactions.
 
 ### 5. Progression and Motivation
 
@@ -245,7 +245,7 @@ AlgoMind supports several learning and engagement patterns:
 
 ## Rating and Progression System
 
-AlgoMind includes a lightweight internal rating engine to reward learning activity and performance.
+AlgoMind includes a lightweight internal rating system to reward learning activity and performance.
 
 - starting rating: 1000
 - level progression: roughly every 500 rating points
