@@ -2,11 +2,6 @@
 
 Adaptive learning platform for DSA practice, mentorship, and structured coding growth.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Platform-Render-00C7B7?style=flat-square&logo=render&logoColor=white)](https://algomind-frontend-dvfp.onrender.com/)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-god-the-coder%2Fhorizon-AlgoMind-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/god-the-coder/horizon-AlgoMind)
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg?style=flat-square)](LICENSE)
-[![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-blue.svg?style=flat-square)](PRIVACY.md)
-
 ---
 
 ## Overview
@@ -259,11 +254,7 @@ This keeps users motivated and provides a measurable path of improvement.
 
 ## License
 
-Copyright © 2025–2026 Siddharth Garkoti. All rights reserved.
-
-AlgoMind is proprietary software. The source code is made public here for portfolio review, architecture inspection, and demonstration purposes.
-
-Usage, redistribution, and hosting are restricted without prior written permission.
+This project is proprietary software. See `LICENSE` for details.
 
 For inquiries, contact: AlgoMind.Support@gmail.com
 
