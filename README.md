@@ -1,6 +1,6 @@
 # AlgoMind 🧠⚡
 
-Adaptive learning platform for DSA practice, mentorship, and secure coding assessments.
+Adaptive learning platform for DSA practice, mentorship, and intelligent coding workflows.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Platform-Render-00C7B7?style=flat-square&logo=render&logoColor=white)](https://algomind-frontend-dvfp.onrender.com/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-god-the-coder%2Fhorizon-AlgoMind-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/god-the-coder/horizon-AlgoMind)
@@ -11,17 +11,17 @@ Adaptive learning platform for DSA practice, mentorship, and secure coding asses
 
 ## Overview
 
-AlgoMind is a full-stack learning platform designed to help students and developers improve their Data Structures and Algorithms (DSA) skills through guided practice, adaptive learning, and secure coding environments.
+AlgoMind is a full-stack platform built to help learners and developers strengthen their Data Structures and Algorithms (DSA) skills through guided practice, adaptive learning, and structured coding workflows.
 
 The platform combines:
 
-- a Socratic AI mentor that gives hints instead of direct answers
-- a browser-based coding arena for practice and testing
+- a Socratic AI mentor that gives hints instead of direct solutions
+- a browser-based coding arena for problem solving and validation
 - analytics for topic mastery and weak-area detection
-- challenge rooms for structured lab-style contests and assessments
-- a progression system to keep learners engaged and motivated
+- live challenge rooms for practice sessions and competitive workflows
+- a progression system to keep users engaged and motivated
 
-At a high level, AlgoMind addresses a common problem in technical education: students often copy solutions from chatbots or outside resources instead of building algorithmic intuition. The platform encourages reasoning, diagnostics, and iterative improvement through guided prompts and structured practice.
+At a high level, AlgoMind addresses a common challenge in technical learning: many users rely on ready-made solutions instead of reasoning through the problem. The platform encourages understanding, debugging, and iterative improvement through targeted feedback and structured practice.
 
 ---
 
@@ -29,7 +29,7 @@ At a high level, AlgoMind addresses a common problem in technical education: stu
 
 ### 1. Socratic AI Mentor
 
-Users can ask for help on problems without receiving complete solution code. The AI focuses on:
+Users can ask for help without receiving complete solution code. The AI focuses on:
 
 - targeted hints
 - reasoning nudges
@@ -37,7 +37,7 @@ Users can ask for help on problems without receiving complete solution code. The
 - complexity explanation
 - debugging guidance
 
-This helps learners develop problem-solving skills instead of relying on generated answers.
+This helps learners build problem-solving instincts instead of copying finished answers.
 
 ### 2. DSA Practice Arena
 
@@ -51,7 +51,7 @@ The platform includes an in-browser coding environment with:
 
 ### 3. Personalized Learning Analytics
 
-Learners can connect external competitive programming handles and track their performance across topics such as:
+Users can connect competitive programming profiles and track performance across topics such as:
 
 - arrays
 - trees
@@ -62,13 +62,13 @@ Learners can connect external competitive programming handles and track their pe
 
 The system surfaces gaps in mastery and supports adaptive learning paths.
 
-### 4. Secure Coding Sessions
+### 4. Challenge Rooms and Live Sessions
 
-AlgoMind supports lab-style challenge and contest workflows with session controls, verification, and monitoring so academic environments can run coding assessments in a structured and traceable manner.
+AlgoMind supports guided practice sessions and competitive workflows with session controls, verification, and monitoring for structured coding environments.
 
 ### 5. Progression and Motivation
 
-Users earn rating points and move through levels as they complete practice tasks, study plans, and contest-style challenges.
+Users earn rating points and advance through levels as they complete practice tasks, study plans, and challenge-based activities.
 
 ---
 
@@ -146,8 +146,6 @@ flowchart TB
 .
 ├── Backend/                 # Django REST API backend
 ├── frontend/                # React frontend application
-├── AlgoMind-Extension/      # Browser automation / monitoring package (if used in your local setup)
-├── AlgoMind-Extension.zip   # packaged extension build
 ├── index.html               # root web entry / static asset entry
 ├── README.md                # project overview and setup guide
 ├── LICENSE                  # proprietary license
@@ -156,8 +154,6 @@ flowchart TB
 ├── .vscode/
 └── ...
 ```
-
-> If you are not using the browser automation package in your local workflow, you can treat it as an optional or separate component of the broader platform.
 
 ---
 
@@ -168,7 +164,7 @@ flowchart TB
 - Python 3.10+
 - Node.js 18+
 - npm and pip
-- Google Chrome for browser-based testing, if needed
+- Chrome for browser-based testing, if needed
 
 ### 1. Backend Setup
 
@@ -221,29 +217,29 @@ The frontend is available at:
 
 ## User Flows
 
-AlgoMind supports several learning and assessment patterns:
+AlgoMind supports several learning and engagement patterns:
 
 ### Individual Learner
 
-- Sign up and create an account
+- sign up and create an account
 - connect competitive programming handles
 - review analytics and weak areas
 - solve DSA problems in the arena
 - request AI hints and debugging support
 - track progress through ratings and goals
 
-### Academic / Cohort Workflow
+### Team / Challenge Workflow
 
-- create or join structured challenge sessions
-- run timed coding assessments
-- monitor learner progress and performance
-- review contest outcomes and analytics
+- create or join structured practice sessions
+- run timed coding challenges
+- monitor progress and performance
+- review challenge outcomes and analytics
 
-### Faculty / Admin Workflow
+### Host / Organization Workflow
 
-- configure challenge rooms and assessment settings
-- oversee sessions and results
-- manage student progress and challenge reporting
+- configure challenge rooms and session settings
+- oversee participation and outcomes
+- manage user progress and performance reporting
 
 ---
 
@@ -255,9 +251,9 @@ AlgoMind includes a lightweight internal rating engine to reward learning activi
 - level progression: roughly every 500 rating points
 - problem completions award rating gains
 - study plan completion awards bonus points
-- contest results can award ranking-based bonuses
+- challenge results can award ranking-based bonuses
 
-This keeps learners motivated and provides a measurable path of improvement.
+This keeps users motivated and provides a measurable path of improvement.
 
 ---
 
@@ -284,4 +280,3 @@ For a more contributor-oriented README, the next step would be to add:
 - API docs
 - environment variable reference
 - architecture notes per module
-
